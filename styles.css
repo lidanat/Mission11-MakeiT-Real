@@ -1,0 +1,134 @@
+.secondContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .informationMsg {
+    align-items: start;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;  
+    justify-content: space-around;  
+  }
+  
+  .text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+    
+  }
+
+  .textMessage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
+    font-size: large;
+    margin-right: auto;
+    color: black;
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .notFoundtext {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    height: 10px ;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+
+  }
+
+  .box {
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .paragraph {
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    display: flex;
+    align-items: flex-start;    
+    }
+    
+  
+  .copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+    opacity: 0.4;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-end;
+  }
+  
+  @media (min-width: 375px) {
+    
+  }
+  
+  @media (min-width: 600px) {
+    
+  }
+  
+
+/*
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*Mobile*//*
+@media (min-width: 375px) {
+    .img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+}
+
+/*Desktop*//*
+@media (min-width: 1440px) {
+    .img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+   
+}
