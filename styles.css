@@ -117,6 +117,7 @@
       color: black;
       display: flex;
       align-items: flex-start;
+      flex-basis: calc(50% - 20px);
   
     }
 
@@ -125,6 +126,9 @@
       height: auto;
       display: flex;
       justify-content: center;
+      margin-top: 0;
+      margin-left: 20px;
+      text-align: left;
     }
 
     .paragraph {
