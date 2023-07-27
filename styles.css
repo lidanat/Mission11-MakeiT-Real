@@ -1,5 +1,6 @@
 .secondContainer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -159,9 +160,7 @@
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-      }
-
-    
+      }    
     
   }
   
@@ -169,6 +168,7 @@
 
     .secondContainer {
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
     }
@@ -252,38 +252,3 @@
     
   }
   
-
-/*
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.img {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-/*Mobile*//*
-@media (min-width: 375px) {
-    .img {
-        display: block;
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-    
-}
-
-/*Desktop*//*
-@media (min-width: 1440px) {
-    .img {
-        display: block;
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-   
-}
